@@ -36,8 +36,8 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application for b
 ```text
 Healthcare-Appointment-System/
 │
-├── front/
-├── back/
+├── frontend/
+├── backend/
 ├── README.md
 └── .gitignore
 ```
@@ -52,14 +52,14 @@ cd Healthcare-Appointment-System
 ### Install Frontend
 
 ```bash
-cd front
+cd frontend
 npm install
 ```
 
 ### Install Backend
 
 ```bash
-cd ../back
+cd ../backend
 npm install
 ```
 
@@ -68,20 +68,20 @@ npm install
 ### Start Backend
 
 ```bash
-cd back
+cd backend
 npm start
 ```
 
 ### Start Frontend
 
 ```bash
-cd front
+cd frontend
 npm start
 ```
 
 ## 🔑 Environment Variables
 
-Create a `.env` file inside the **back** folder.
+Create a `.env` file inside the **backend** folder.
 
 ```env
 PORT=5000
