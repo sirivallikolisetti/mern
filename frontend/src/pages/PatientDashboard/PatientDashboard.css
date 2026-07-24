@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar p {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f3f4f6;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Section */
+.section {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Buttons */
+button {
+  margin: 10px 5px;
+  padding: 8px 12px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,194 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Page Background */
+
+.register-page{
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:flex-start;
+
+padding:40px 0;
+
+background-image:url("https://img.freepik.com/premium-photo/dark-themed-healthcare-innovation-concept-design_1220676-31487.jpg");
+
+background-size:cover;
+background-position:center;
+
+position:relative;
+
+overflow-y:auto;
+}
+
+.register-page::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,0.25);
+
+backdrop-filter:blur(4px);
+
+z-index:0;
+
+}
+
+/* Glass Card */
+
+.register-card{
+
+position:relative;
+
+z-index:1;
+
+width:420px;
+max-width:90%;
+
+padding:30px;
+
+background:rgba(255,255,255,0.2);
+
+backdrop-filter:blur(10px);
+
+border-radius:20px;
+
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+color:black;
+
+}
+
+/* Heading */
+
+.register-card h2{
+
+text-align:center;
+margin-bottom:20px;
+
+}
+
+/* Inputs */
+
+.register-card input,
+.register-card textarea,
+.register-card select{
+
+width:100%;
+
+padding:12px;
+
+margin-top:10px;
+
+border:none;
+
+border-radius:8px;
+
+background:rgba(255,255,255,0.3);
+
+color:black;
+
+outline:none;
+
+font-size:14px;
+
+}
+
+/* Placeholder */
+
+.register-card input::placeholder,
+.register-card textarea::placeholder{
+
+color:#f1f1f1;
+
+}
+
+/* Dropdown options visible */
+
+.register-card select{
+color:black;
+}
+
+/* Password Field */
+
+.password-field{
+position:relative;
+}
+
+/* Eye Icon */
+
+.eye-icon{
+
+position:absolute;
+
+right:12px;
+
+top:50%;
+
+transform:translateY(-50%);
+
+cursor:pointer;
+
+color:black;
+
+}
+
+/* Button */
+
+button{
+
+width:100%;
+
+margin-top:18px;
+
+padding:12px;
+
+border:none;
+
+border-radius:10px;
+
+background:#1e90ff;
+
+color:black;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+/* Button Hover */
+
+button:hover{
+background:#0f7ae5;
+}
+
+/* Labels */
+
+label{
+
+display:block;
+
+margin-top:12px;
+
+font-size:14px;
+
+}
